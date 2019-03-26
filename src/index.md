@@ -1,5 +1,6 @@
 ---
 title: Home
+collection: articles
 template: page.hbs
 ---
 

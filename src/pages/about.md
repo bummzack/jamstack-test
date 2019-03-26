@@ -1,5 +1,6 @@
 ---
 title: About
+collection: articles
 template: page.hbs
 ---
 

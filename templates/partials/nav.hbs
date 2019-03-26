@@ -1,0 +1,13 @@
+<nav class="navigation" role="navigation">
+    <ul class="navigation__list">
+        {{#each collections.articles}}
+        <li class="navigation__item">
+            {{#if this.path }}
+            <a href="/{{ this.path }}/" class="navigation__link">{{ this.title }}</a>
+            {{ else }}
+            <a href="/" class="navigation__link">{{ this.title }}</a>
+            {{/if}}
+        </li>
+        {{/each}}
+    </ul>
+</nav>

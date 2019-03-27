@@ -1,6 +1,7 @@
 ---
 title: About
-image: /assets/uploads/2rgtdg0055l01.jpg
+image: /images/uploads/2rgtdg0055l01.jpg
+template: page.hbs
 ---
 
 # What is this?

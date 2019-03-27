@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -10,6 +10,10 @@
     {{> nav}}
     <main class="main-wrapper">
         {{{ contents }}}
+
+        {{#if image }}
+          <img src="{{image}}" alt="image" />
+        {{/if}}
     </main>
 
 </body>

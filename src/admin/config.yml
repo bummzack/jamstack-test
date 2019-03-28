@@ -18,6 +18,7 @@ collections:
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
       - { label: 'Template', name: 'template', widget: 'hidden', default: 'page.hbs' }
+      - { label: 'Gender-Tool', name: 'genderTool', widget: 'boolean', default: false }
       - label: 'Cover Image'
         name: 'image'
         widget: 'image'

@@ -1,0 +1,18 @@
+html, body {
+  background: #fff;
+  font-size: 26px;
+  font-family: Helvetica, sans-serif;
+  color: #000;
+}
+
+.gender {
+}
+
+.gender__input {
+  font-size: 26px;
+}
+
+.gender__result strong {
+  font-weight: normal;
+  font-size: 48px;
+}

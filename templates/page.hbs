@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>{{ title }}</title>
 
-    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
 </head>
 <body>
     {{> nav}}
@@ -14,7 +14,14 @@
         {{#if image }}
           <img src="{{image}}" alt="image" />
         {{/if}}
-    </main>
 
+        {{#if genderTool }}
+          <div class="gender">
+            <input id="genderinput" class="gender__input" type="text" placeholder="Dein Name" />
+            <div id="genderoutput" class="gender__result"></div>
+          </div>
+        {{/if}}
+    </main>
+    <script type="text/javascript" src="/scripts/script.js"></script>
 </body>
 </html>

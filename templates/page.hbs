@@ -9,10 +9,11 @@
 <body>
     {{> nav}}
     <main class="main-wrapper">
+      <section class="content">
         {{{ contents }}}
 
         {{#if image }}
-          <img src="{{image}}" alt="image" />
+          <img src="{{image}}" class="content__image" alt="image" />
         {{/if}}
 
         {{#if genderTool }}
@@ -21,6 +22,7 @@
             <div id="genderoutput" class="gender__result"></div>
           </div>
         {{/if}}
+      </section>
     </main>
     <script type="text/javascript" src="/scripts/script.js"></script>
 </body>

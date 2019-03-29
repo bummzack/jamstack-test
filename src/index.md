@@ -4,6 +4,6 @@ collection: articles
 template: page.hbs
 ---
 
-# Hello
+# Hello, Hello
 
-This is the home-page
+This is the home-page.
